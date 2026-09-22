@@ -2,6 +2,16 @@
 
 Clon del clásico arcade **Asteroids** implementado en canvas HTML5 puro, sin dependencias ni bundler.
 
+## Instrucciones
+
+- El objetivo del juego es destruir todos los asteroides para avanzar al siguiente nivel.
+- Gira la nave con las flechas izquierda y derecha, impulsa con la flecha arriba y dispara con la barra espaciadora.
+- Los asteroides grandes se parten en asteroides medianos, y estos en pequeños cuando reciben impacto.
+- Cada asteroide tiene un valor en puntos: grande = 20, mediano = 50, pequeño = 100.
+- Si chocas contra un asteroide pierdes una vida. Tienes 3 vidas en total.
+- Al perder una vida, la nave reaparece con una breve invulnerabilidad para recuperar el control.
+- Cuando el juego termina, presiona la barra espaciadora para reiniciar.
+
 ## Demo:
 
 [Asteroids demo](https://klerith.github.io/claude-asteroids/)
